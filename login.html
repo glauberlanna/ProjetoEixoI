@@ -17,51 +17,40 @@
     </header>
 
     <nav class="navegacao">
-
         <div class="botao">
             <a href="categorias.html">Categorias</a>
         </div>
-
         <div class="botao">
             Ofertas do dia
         </div>
-
-        <div class="botao" >
+        <div class="botao">
             Histórico
         </div>
-
         <div class="botao">
             Mais procurados
         </div>
-
         <div class="botao">
             <a href="cadastro.html"> Crie sua conta</a>
         </div>
-
         <div class="botao">
             <a href="login.html">Login</a>
         </div>
-
         <div class="botao">
             Contato
         </div>
-        
     </nav>
 
     <main class="conteudo">
         <div class="cadastro">
-            <h2>Cadastro</h2>
-            <p>Digite seu nome.</p>
-                <input type="text">
-            <p>Digite seu e-mail.</p>
-                <input type="email">
-            <p>Crie sua senha.</p>
-                <input type="password">
-            <input type="submit" value="Cadastrar" class="cadastrar" onclick="registrar(); return false">
+            <h2>Login</h2>
+            <p>E-mail.</p>
+                <input type="email" id="login">
+            <p>Senha.</p>
+                <input type="password" id="senha">
+            <input type="submit" onclick="logar(); return false" class="cadastrar"><br>
+            <a href="" class="esqueciSenha">Esqueci minha senha</a>
         </div>
 
-
-        
     </main>
 
 </body>

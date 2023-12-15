@@ -46,6 +46,17 @@ a:visited{
   padding: 0.5rem;
 }
 
+.conteudo .greetings p{
+  background-color: rgb(164, 248, 54);
+  display: block;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: red;
+  height: auto;
+  padding: 0.5rem;
+  padding-left: 2rem;
+}
+
 .conteudo .oferta{
   background-color: rgba(48, 62, 71, 0.795);
   padding: 1rem;
@@ -53,7 +64,6 @@ a:visited{
   width: 30%;
   border-radius: 10px;
   display: inline-block;
-  
 }
 
 .conteudo .oferta img{
@@ -72,6 +82,236 @@ a:visited{
   color: rgb(137, 231, 227);
   font-family: Arial, Helvetica, sans-serif;
   text-align: justify;
+}
+
+/*-------------CATEGORIAS-------------*/
+
+.conteudo .oferta{
+  background-color: rgba(48, 62, 71, 0.795);
+  padding: 1rem;
+  margin: 1rem;
+  width: 30%;
+  border-radius: 10px;
+  display: inline-block;
+  
+}
+
+.conteudo .oferta1{
+  background-image: url("acessorios.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: rgb(137, 231, 227);
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 25px;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  width: 20%;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.conteudo .oferta2{
+  background-image: url("beleza.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: rgb(137, 231, 227);
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 25px;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  width: 20%;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.conteudo .oferta3{
+  background-image: url("brinquedos.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: rgb(137, 231, 227);
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 25px;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  width: 20%;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.conteudo .oferta4{
+  background-image: url("construcao.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: rgb(137, 231, 227);
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 25px;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  width: 20%;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.conteudo .oferta5{
+  background-image: url("eletrodomesticos.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: rgb(137, 231, 227);
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 25px;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  width: 20%;
+  border-radius: 10px;
+  display: inline-block;
+}
+.conteudo .oferta6{
+  background-image: url("ferramentas.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: rgb(137, 231, 227);
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 25px;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  width: 20%;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.conteudo .oferta7{
+  background-image: url("imoveis.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: rgb(137, 231, 227);
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 25px;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  width: 20%;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.conteudo .oferta8{
+  background-image: url("industria.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: rgb(137, 231, 227);
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 25px;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  width: 20%;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.conteudo .oferta9{
+  background-image: url("lar.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: rgb(137, 231, 227);
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 25px;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  width: 20%;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.conteudo .oferta10{
+  background-image: url("saude.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: rgb(137, 231, 227);
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 25px;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  width: 20%;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.conteudo .oferta11{
+  background-image: url("supermercado.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: rgb(137, 231, 227);
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 25px;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  width: 20%;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.conteudo .oferta12{
+  background-image: url("tecnologia.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: rgb(137, 231, 227);
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 25px;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  width: 20%;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.conteudo .oferta13{
+  background-image: url("veiculos.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: rgb(137, 231, 227);
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 25px;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  width: 20%;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.conteudo .oferta14{
+  background-image: url("viagens.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: rgb(137, 231, 227);
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 25px;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  width: 20%;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+/*-------------LOGIN-------------*/
+
+.conteudo .cadastro a .esqueciSenha{
+  text-align: center;
 }
 
 /*-------------CADASTRO-------------*/
@@ -110,4 +350,20 @@ a:visited{
   margin: 8px 0;
   margin-left: 25%;
   box-sizing: border-box;
+}
+
+/*---------------------------------------------------*/
+
+
+.conteudo .contato{
+  background-color: rgb(37, 49, 57);
+  height: 59rem;
+  padding: 0.5rem;
+  display: block;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color rgb(137, 231, 227);
+  height: 30%;
+  padding: 0.5rem;
+  padding-left: 2rem;
 }
